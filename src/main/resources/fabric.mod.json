@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "elytra-boost-go-bye-bye",
+	"version": "${version}",
+	"name": "Elytra Boost Go Bye Bye",
+	"description": "Cya later OP elytra",
+	"authors": [
+		"enjarai"
+	],
+	"contact": {
+		"homepage": "https://enjarai.dev/",
+		"sources": "https://github.com/enjarai/elytra-boost-go-bye-bye"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/elytra-boost-go-bye-bye/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.enjarai.elytraboostcya.ElytraBoostGoByeBye"
+		]
+	},
+	"mixins": [
+		"elytra-boost-go-bye-bye.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15",
+		"java": ">=17"
+	}
+}
